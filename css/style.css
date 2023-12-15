@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+:root{
+    --blue-green:#124660;
+    --green-1:#1b9476;
+    --green-2:#8bd59e;
+    --green-3:#c7dbc2;
+    --cream: #f4ebd6;
+    --yellow: #ffc600;
+    --yellow-b: #f0bc00;
+}
+
+/* The backgrounds */
+.bg-1{
+    background: var(--blue-green);
+}
+.bg-2{
+    background: var(--green-1);
+}
+.bg-3{
+    background: var(--green-2);
+}
+.bg-4{
+    background: var(--green-3);
+}
+.bg-5{
+    background: var(--cream);
+}
+.bg-6{
+    background: #f4f6f9;
+}
+
+/* The font-color */
+.color-1{
+    color: var(--blue-green);
+}
+.color-2{
+    color:  var(--green-1)
+}
+.color-3{
+    color: var(--green-2);
+}
+.color-4{
+    color: var(--green-3);
+}
+
+.color-5{
+    color: var(--cream);
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+}
+
+.font-normal{
+    font-size: 15px;
+}
+
+.btn-1{
+    background: var(--yellow);
+}
+
+.btn-1:hover{
+    background:var(--yellow-b);
+    opacity: 1;
+}
+
+.box-head{
+    border: solid;
+    position: relative;
+    width: 200px;
+    height: 50px;
+
+}
+.box-head .icon-box{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.box-head .info-box{
+    position: absolute;
+    left: 50px;
+}
